@@ -1,0 +1,41 @@
+GIT
+  remote: https://github.com/milafrerichs/geo_transformer.git
+  revision: fc44ddda4dcf29944b9926ac10e9e4e75ef8a89e
+  specs:
+    geo_transformer (0.0.0)
+
+GIT
+  remote: https://github.com/roo-rb/roo-xls.git
+  revision: a316a88d042ca6e28a83c46a0db1906a9feebb62
+  specs:
+    roo-xls (0.0.1)
+      nokogiri
+      roo (>= 2.0.0)
+      spreadsheet (> 0.9.0)
+
+GIT
+  remote: https://github.com/roo-rb/roo.git
+  revision: 707ed1524dd4506e553c6528a674add910598395
+  specs:
+    roo (2.0.0)
+      nokogiri
+      rubyzip (>= 1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_portile (0.6.2)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    ruby-ole (1.2.11.8)
+    rubyzip (1.1.7)
+    spreadsheet (1.0.1)
+      ruby-ole (>= 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  geo_transformer!
+  roo!
+  roo-xls!
